@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
+:root {
+  --primary-color: #164e63;
+  --other-color: #dcfce7;
+}
+
+body {
+  font-family: "Carter One", cursive;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+h1 {
+  background-color: #0778b7;
+  background-image: linear-gradient(160deg, #0778b7 0%, #24b935 100%);
+
+  color: var(--other-color);
+  max-width: 80%;
+  margin: auto;
+  border-bottom-right-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 0rem;
+  border: #065f46 solid 0.1rem;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  text-shadow: 4px 4px 4px var(--primary-color);
+}
+
+.f {
+  color: #f87171;
+}
+
+.intro {
+  max-width: 70%;
+  margin: auto;
+  color: grey;
+  font-size: small;
+}
+
+input {
+  padding: 1rem;
+  margin: 2rem;
+  height: 3vh;
+  border-radius: 0.5rem;
+  border: black solid 0.1rem;
+}
+
+.meaning {
+  padding: 0.5rem;
+  max-width: 20%;
+  margin: auto;
+  color: var(--other-color);
+}
+
+.answer {
+  padding-bottom: 2rem;
+  margin: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--other-color);
+  letter-spacing: 0.2rem;
+  word-spacing: 0.2rem;
+
+  text-shadow: 4px 4px 4px black;
+}
+
+.display {
+  display: inline-block;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+.options {
+  padding: 0.2rem 0.6rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  background-color: #8cabeb;
+  background-image: linear-gradient(160deg, #8cabeb 0%, #83ff84 100%);
+  border: solid black 0.1rem;
+  border-radius: 0.8rem;
+  text-shadow: 4px 4px 4px #ffffff;
+  box-shadow: 3px 0px 10px 4px black;
+}
+
+.options:hover {
+  padding: 0.4rem 0.9rem;
+  background-color: white;
+  background-image: none;
+}
+
+.footer {
+  background-color: var(--other-color);
+  padding-top: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--primary-color);
+}
+
+a {
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  color: var(--primary-color);
+}
